@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Paul</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div id="navbar">
+    <h1 id="name"><a href="http://localhost:3000/">Paul Hutner</a></h1>
+    <h2 id="menu">
+      <a href="http://localhost:3000/collections">Works and Collections</a> 
+      <a href="http://localhost:3000/about">About</a>
+    </h2>
+  </div>
+<%= yield %>
+
+</body>
+</html>
