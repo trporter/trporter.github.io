@@ -49,3 +49,12 @@ a {
 a:link, a:visited {
     color: inherit;
 }
+
+.carousel {
+  width: 50%;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+  color: black;
+}
